@@ -1,0 +1,107 @@
+extends layout
+
+block content
+  nav.navbar.navbar-default
+    // Brand and toggle get grouped for better mobile display
+    .navbar-header
+      button.navbar-toggle(type='button', data-target='#navbarCollapse', data-toggle='collapse')
+        span.sr-only Toggle navigation
+        span.icon-bar
+        span.icon-bar
+        span.icon-bar
+      a.navbar-brand(href='#') Logo
+    // Collection of nav links and other content for toggling
+    #navbarCollapse.collapse.navbar-collapse
+      ul.nav.navbar-nav.navbar-right
+        li
+          a(href='#') Our Mission
+        li
+          a(href='#') What We Do
+        li
+          a(href='#') Projects
+        li
+          a(href='#') Staff
+  .col-md-12.no-padding
+    .owl-carousel.owl-theme
+      img(src="images/hero_image.png", class="img-responsive", alt="alt")
+      img(src="images/hero_image.png", class="img-responsive", alt="alt")
+      img(src="images/hero_image.png", class="img-responsive", alt="alt")
+      img(src="images/hero_image.png", class="img-responsive", alt="alt")
+  .col-md-12.no-padding
+    .col-md-6.left-not-hopkins
+      h2 Not Hopkins Government and Community Affairs
+      p.subtitle Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum.
+      p.mid-text Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.
+      ul
+        li Lorem Ipsum Dolor Sit Amet
+        li Lorem Ipsum Dolor Sit Amet
+        li Lorem Ipsum Dolor Sit Amet
+      a(href='#').yellow-button Read Our Mission Statement
+    .col-md-6.right-not-hopkins.no-padding
+      .col-md-12.upper-text
+        h2 Have a Question?
+        p Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamcoi.
+        a(href='#').yellow-button Contact Us
+      .col-md-12.no-padding
+        img(src="images/have_question.png", class="img-responsive", alt="alt")
+  .col-md-12.didyouknow
+    h2 Did you know...
+    p We surveyed over 600 community members to prioritize and address health needs.
+    a(href='#').yellow-button Read More
+  .col-md-12.resources
+    .col-md-12.title
+      h2 Resources for...
+    .col-md-3
+      .card
+        img(src='images/hopkins_community.png', alt='Avatar', style='width:100%')
+        .text-container
+          h4
+            b Not Hopkins Community
+          br
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          br
+    .col-md-3
+      .card
+        img(src='images/local_organization.png', alt='Avatar', style='width:100%')
+        .text-container
+          h4
+            b Local Organizations
+          br
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          br
+    .col-md-3
+      .card
+        img(src='images/communityhealthadvocates.png', alt='Avatar', style='width:100%')
+        .text-container
+          h4
+            b Community Health Advocates
+          br
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          br
+    .col-md-3
+      .card
+        img(src='images/government_reps.png', alt='Avatar', style='width:100%')
+        .text-container
+          h4
+            b Goverment Representatives
+          br
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          a(href='#') Resource Link
+          br
+  .col-md-12.project-spotlight.no-padding
+    .col-md-6.no-padding
+      img(src="images/project_spotlight.png", class="img-responsive", alt="alt")
+    .col-md-6.project-spotlight-right
+      h2 Project Spotlight
+      p.subtitle-spotlight PROJECT TITLE
+      p.text-spotlight Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      br
+      p.last-text-spotlight Culpa urna, magna sapien morbi nam ornare pariatur sit. Magna arcu arcu interdum, ac eget aliquam faucibus scelerisque, atque luctus scelerisque ante.
+      a(href='#').yellow-button Learn More

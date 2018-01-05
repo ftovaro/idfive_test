@@ -1,0 +1,247 @@
+@font-face {
+  font-family: 'Gentona Bold';
+  src: url("/fonts/Gentona Bold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Gentona SemiBold';
+  src: url("/fonts/Gentona SemiBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Gentona Light';
+  src: url("/fonts/Gentona Light.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Gentona ExtraBold';
+  src: url("/fonts/Gentona ExtraBold.otf") format("opentype"); }
+
+@font-face {
+  font-family: 'Gentona Heavy';
+  src: url("/fonts/Gentona Heavy.otf") format("opentype"); }
+
+body {
+  font: 14px "Gentona SemiBold", Helvetica, Arial, sans-serif; }
+
+a {
+  color: #003D4D; }
+
+.no-padding {
+  padding: 0 !important; }
+
+.yellow-button {
+  background-color: #FFCE00;
+  color: black;
+  padding: 16px 40px;
+  text-decoration: none !important;
+  font-family: 'Gentona Light';
+  font-size: 18px; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin: 0 !important; }
+
+.owl-dots {
+  position: absolute !important;
+  top: 90% !important;
+  left: 85% !important; }
+
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+  background: #003D4D; }
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 20px !important;
+  height: 20px !important; }
+
+.navbar-default {
+  background-color: white !important;
+  border-color: white !important; }
+
+.navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #003D4D; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #003D4D;
+  font-size: 25px; }
+
+.navbar {
+  margin: 10px 0px; }
+
+.navbar-brand {
+  border: 1px solid #003D4D;
+  padding: 15px 65px;
+  margin-left: 15%;
+  font-size: 16px;
+  color: #003D4D; }
+
+.left-not-hopkins {
+  padding: 2% 9% 0% 6%; }
+
+.left-not-hopkins h2 {
+  color: #003D4D;
+  font-size: 40px;
+  margin-bottom: 10%; }
+
+.left-not-hopkins .subtitle {
+  color: #003D4D;
+  font-size: 25px;
+  font-family: 'Gentona Light';
+  margin-bottom: 10%; }
+
+.left-not-hopkins .mid-text {
+  color: black;
+  font-size: 15px;
+  font-family: 'Gentona Light'; }
+
+.left-not-hopkins ul {
+  color: black;
+  font-size: 15px;
+  font-family: 'Gentona Light';
+  margin-bottom: 10%;
+  padding-left: 0%; }
+
+.right-not-hopkins {
+  text-align: center;
+  background-color: #003D4D;
+  font-family: 'Gentona Light'; }
+
+.right-not-hopkins .upper-text {
+  padding: 4% 20% 7% 20%; }
+
+.right-not-hopkins h2 {
+  font-size: 40px;
+  color: #FFCE00;
+  font-family: 'Gentona SemiBold';
+  margin-bottom: 5%; }
+
+.right-not-hopkins p {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 10%; }
+
+.didyouknow {
+  background-color: #003D4D;
+  padding: 2% 30% 4% 30%;
+  text-align: center; }
+
+.didyouknow h2 {
+  color: #FFCE00;
+  font-size: 40px;
+  font-family: 'Gentona SemiBold';
+  margin-bottom: 2%; }
+
+.didyouknow p {
+  color: white;
+  font-size: 26px;
+  font-family: 'Gentona Light';
+  margin-bottom: 10%; }
+
+.project-spotlight {
+  background-color: #003D4D; }
+
+.project-spotlight .project-spotlight-right {
+  background-color: #003D4D;
+  color: white;
+  padding: 2% 10% 5% 10%; }
+
+.project-spotlight .project-spotlight-right h2 {
+  font-size: 40px;
+  color: #FFCE00;
+  font-family: 'Gentona SemiBold';
+  margin-bottom: 6%; }
+
+.project-spotlight .project-spotlight-right .subtitle-spotlight {
+  font-size: 30px;
+  font-family: 'Gentona Bold';
+  margin-bottom: 2%; }
+
+.project-spotlight .project-spotlight-right .text-spotlight {
+  font-size: 18px;
+  font-family: 'Gentona Light'; }
+
+.project-spotlight .project-spotlight-right .last-text-spotlight {
+  font-size: 17px;
+  margin-bottom: 12%;
+  font-family: 'Gentona Light'; }
+
+.resources {
+  padding: 1% 0% 5% 0%;
+  background-color: #EEEEEE; }
+
+.resources .title {
+  text-align: center; }
+
+.resources .title h2 {
+  color: #003D4D;
+  font-size: 40px;
+  margin-bottom: 5%; }
+
+.resources .card .text-container {
+  text-align: center;
+  background-color: white;
+  height: 200px; }
+
+.resources .card .text-container h4 {
+  background-color: #003D4D;
+  color: white;
+  margin: 0;
+  padding: 3% 20%;
+  font-size: 23px;
+  height: 70px; }
+
+.resources .card .text-container a {
+  display: block;
+  color: #003D4D;
+  padding-bottom: 3%;
+  font-family: 'Gentona SemiBold';
+  font-size: 16px; }
+
+@media (max-width: 768px) {
+  .navbar-default {
+    background-color: #003D4D !important;
+    margin: 0 !important;
+    color: white; }
+  .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active > a:hover {
+    color: white; }
+  .navbar-default .navbar-nav > li > a {
+    color: white; }
+  .navbar {
+    margin: 10px 0px; }
+  .navbar-brand {
+    border: 1px solid white;
+    padding: 10px 10px;
+    margin-left: 7%;
+    font-size: 16px;
+    color: white !important; }
+  .owl-dots {
+    display: none; }
+  .left-not-hopkins h2 {
+    font-size: 27px; }
+  .left-not-hopkins .subtitle {
+    font-size: 18px; }
+  .left-not-hopkins {
+    padding-bottom: 10%; }
+  .right-not-hopkins .upper-text {
+    padding: 4% 15% 16% 15%; }
+  .left-not-hopkins ul {
+    padding-left: 6%; }
+  .right-not-hopkins h2 {
+    font-size: 27px;
+    margin-bottom: 10%; }
+  .right-not-hopkins p {
+    margin-bottom: 18%; }
+  .didyouknow {
+    display: none; }
+  .resources .title h2 {
+    font-size: 30px;
+    margin-bottom: 8%; }
+  .resources .col-md-3 {
+    padding: 0; }
+  .project-spotlight .project-spotlight-right h2 {
+    font-size: 28px; }
+  .project-spotlight .project-spotlight-right .subtitle-spotlight {
+    font-size: 20px; } }
+
+/*# sourceMappingURL=style.css.map */
