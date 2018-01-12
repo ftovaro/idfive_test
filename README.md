@@ -9,6 +9,8 @@ After you have cloned the project, go inside the folder a run `npm install`.
 
 Once done, you can start the server with `npm start`
 
+If you see an error after run `npm start` try running `npm rebuild node-sass --force`, for some reason there is a problem with this dependecie but it's easy to solve.
+
 ## Some screenshots ##
 
 Here are some screenshot of the web site.
