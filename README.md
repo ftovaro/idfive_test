@@ -11,4 +11,4 @@ Once done, you can start the server with `npm start`
 
 ## Some screenshots ##
 
-Here are some screenshot of the web site.
+Here are some screenshot of the web site:
